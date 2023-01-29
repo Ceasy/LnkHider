@@ -13,7 +13,7 @@ from pathlib import Path
 
 exclusion_added = False
 shortcut_paths: List[str] = []
-default_lnks_path = os.path.join(r'C:\Users\Public\Documents', 'Links')
+default_lnks_path = os.path.join(r'C:\Users\Public\Documents\Links', 'Links')
 desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
 # Load user settings from config file
 config = configparser.ConfigParser()
